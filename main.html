@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("bg final 1-min.jpg"); /* Path to your background image */
+            background-size: cover; /* Make the background image cover the entire page */
+            background-position: center; /* Center the background image */
+            background-attachment: fixed; /* Keep the background image fixed while scrolling */
+            overflow: hidden; /* Prevent scrolling */
+            height: 100vh; /* Ensure the body fills the viewport height */
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: justify;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .container p {
+            margin-bottom: 20px;
+        }
+
+        .image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 40px;
+            position: absolute; /* Position the image absolutely within its containing element */
+            bottom: 0px; /* Adjust the top position */
+            left: 15px; /* Adjust the left position */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Hi, Mahal.
+<br>
+<br>
+Happy Valentines Day!
+<br>
+Thank you sa pagpili sa akin, palagi kong ipagpapasalamat yun dahil sobrang saya ko sayo. Palagi rin akong mananatili sayo at mamahalin ka araw araw. Mahal na mahal kita magpakailanman. &#x2764;
+<br>
+<br>
+<br>
+-Mahal</p>
+        <a href=https://open.spotify.com/track/4rG3h1QwgjSSWz8EIjCFrm?si=9f6cae3c61cb4a15><img class="image" src="spotify-icon-black-17.png"></a>
+    </div>
+</body>
+</html>
